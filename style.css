@@ -1,0 +1,184 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,
+::after,
+::before{
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    font-family: Arial;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header
+{
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.header_container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.header_logo
+{
+    font-size: 40PX;
+    font-weight: bold;
+    color: black;
+    border: 4px solid black;
+    padding: 5px 17px;
+    
+
+}
+.header_logo:focus{
+    opacity: .8;
+
+}
+ .menu_list
+        {
+display: flex;
+align-items: center;
+gap: 50px;
+list-style: none;
+margin: 0;
+padding-left: 0;
+        }
+         .menu_link
+{
+    color: black;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.hero_content
+{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.umberto
+{
+ font-family: Smooch Sans;
+ font-size: 50px;
+}
+.Subtitle
+{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+     opacity: 1;
+    transform: translateY(30px);
+    transition: 1s;
+
+   
+}
+
+.catalogue_list
+{
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+  
+}
+
+.slide
+{
+    width: 300px;
+    border-radius: 12px;
+    outline: 2px solid white;
+    outline-offset: 5px;
+}
+.slider
+
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 20px;
+
+}
+.whatsapp
+{
+    width: 70px;
+    display: block;
+}
+.callbackkk
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.p1
+{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+.p2
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.p3
+{
+    text-align: center;
+    padding-bottom: 90px;
+}
+.hero_content
+{
+    opacity: 1;
+    transform: translateY(30px);
+    transition: 1s;
+}
+
+
+    @media ( max-width: 740px)
+    {
+.header_container
+{
+    display: block;
+   padding-left: 0;
+   padding-right: 0;
+}
+.header_logo
+{
+    
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+.menu_list{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+    }    
+      
+
